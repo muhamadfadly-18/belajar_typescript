@@ -1,0 +1,18 @@
+#dependecies
+/node_modules
+
+#testing
+/coverage
+
+#production
+/dist
+
+#misc
+.DS_Store
+.package-lock.json
+
+#IDEs and editors
+.vscode
+
+#env files
+.env
