@@ -1,4 +1,4 @@
-import express, { Request, Response, NextFunction } from 'express'
+import express, { Request, Response } from 'express'
 import dotenv from 'dotenv'
 
 dotenv.config()
@@ -6,7 +6,7 @@ dotenv.config()
 const app = express()
 const PORT = process.env.PORT ? parseInt(process.env.PORT) : 3000
 
-app.get('/', (req: Request, res: Response, next: NextFunction) => {
+app.get('/', (req: Request, res: Response) => {
   res.send('Hello, World!')
 })
 
